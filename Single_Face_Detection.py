@@ -4,7 +4,7 @@ import cv2
 trained_face_data = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 #read a chosen image
-img = cv2.imread(r'C:\Users\udaya\Downloads\front_face_view.png')
+img = cv2.imread('front_face_view.png')
 
 #grey-scaling the image
 gr_img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
